@@ -42,6 +42,11 @@ h1 {
   line-height: 50px;
 }
 
+ul {
+    display: inline-block;
+}
+
+
 h2 {
   font-size: 21.328px;
   line-height: 30px;
@@ -58,6 +63,7 @@ form {
 label {
   font-size: 25px;
   line-height: 29px;
+
 }
 
 input {
