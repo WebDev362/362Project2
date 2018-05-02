@@ -583,8 +583,8 @@ $.noConflict();
   '<p> The number of children tickets: ' + docCookies.getItem('children') + '</p>' +
   '<p> The number of infant tickets: ' + docCookies.getItem('infant') + '</p>');
 
-  $('#ticketinsert').append('<p> Your departing flight is: ' + docCookies.getItem('departflight') + '</p>' +
-  '<p> Your arriving flight is: ' + docCookies.getItem('returnflight') + '</p>');
+  $('#ticketinsert').append('<p> Your departing flight is: ' + docCookies.getItem('flightOneSelection') + '</p>' +
+  '<p> Your arriving flight is: ' + docCookies.getItem('flightTwoSelection') + '</p>');
 
   $('#seatinsert').append('<p> Your selected seats for flight one: ' + docCookies.getItem('seatsFlightOne') + '</p>' +
   '<p> Your selected seats for flight two: ' + docCookies.getItem('seatsFlightTwo') + '</p>');
