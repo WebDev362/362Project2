@@ -498,7 +498,7 @@ $.noConflict();
       var zip = $('#zipcode').val();
       if(zip.length === 5){
         console.log("looks good to me!");}
-      $.get('http://api.zippopotam.us/us/' + zip,
+      $.get('https://api.zippopotam.us/us/' + zip,
         function(data){
           $('#state').val(data.places[0]["state abbreviation"]);
           $('#city').val(data.places[0]["place name"]);
