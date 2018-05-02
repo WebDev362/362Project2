@@ -10,22 +10,235 @@
 </head>
 <body>
   <header id="headtitle">
-    <h1><a href="" rel="home">Dominator Flight Booking</a></h1>
+    <h1><a href="" rel="home">Dominator Flight&nbsp;Booking</a></h1>
   </header>
   <main>
-    <h2>Search Results</h2>
-    <h3 id="titledepart">Departing Flight: </h3>
-    <form id="flightselection" action="../seats/index.html" method="get">
-      <ol id='departflights'>
-        <!-- to do: fix li, ol and ul being nested incorrectly -->
-    <ul id="searchtitles">
+    <h2>Flight Selection</h2>
+    <h3 id="titledepart">Departing Flights: </h3>
+    <figure id="flightSelection">
+      <ul id="flights">
+        <li id="departingSelect">
+          <ol class="flightsOne"> <!-- flight one -->
+            <li class="indivFlight">
+              <a href="#flight102">
+                <ul>
+                  <li class="pretty">
+                    <h4>Flight 102</h4>
+                  </li>
+                  <li class="ig">
+                    <h4>Departs</h4>
+                    <p>7:30 AM</p>
+                  </li>
+                  <li class="ig">
+                    <h4>Arrives</h4>
+                    <p>9:45 AM</p>
+                  </li>
+                  <li class="igl">
+                    <h4>Duration</h4>
+                    <p>2h15</p>
+                  </li>
+                  <li class="pretty">
+                    <h4>Price</h4>
+                    <p>$430</p>
+                  </li>
+                </ul>
+              </a>
+            </li>
+            <li class="indivFlight">
+              <a href="#flight103">
+              <ul>
+                <li class="pretty">
+                  <h4>Flight 103</h4>
+                </li>
+                <li class="ig">
+                  <h4>Departs</h4>
+                  <p>10:30 AM</p>
+                </li>
+                <li class="ig">
+                  <h4>Arrives</h4>
+                  <p>12:45 PM</p>
+                </li>
+                <li class="igl">
+                  <h4>Duration</h4>
+                  <p>2h15</p>
+                </li>
+                <li class="pretty">
+                  <h4>Price</h4>
+                  <p>$400</p>
+                </li>
+              </ul>
+              </a>
+            </li>
+            <li class="indivFlight">
+              <a href="#flight104">
+              <ul>
+                <li class="pretty">
+                  <h4>Flight 104</h4>
+                </li>
+                <li class="ig">
+                  <h4>Departs</h4>
+                  <p>11:00 AM</p>
+                </li>
+                <li class="ig">
+                  <h4>Arrives</h4>
+                  <p>1:00 PM</p>
+                </li>
+                <li class="igl">
+                  <h4>Duration</h4>
+                  <p>2h00</p>
+                </li>
+                <li class="pretty">
+                  <h4>Price</h4>
+                  <p>$375</p>
+                </li>
+              </ul>
+              </a>
+            </li>
+            <li class="indivFlight">
+              <a href="#flight105">
+              <ul>
+                <li class="pretty">
+                  <h4>Flight 105</h4>
+                </li>
+                <li class="ig">
+                  <h4>Departs</h4>
+                  <p>5:00 PM</p>
+                </li>
+                <li class="ig">
+                  <h4>Arrives</h4>
+                  <p>8:00 PM</p>
+                </li>
+                <li class="igl">
+                  <h4>Duration</h4>
+                  <p>3h00</p>
+                </li>
+                <li class="pretty">
+                  <h4>Price</h4>
+                  <p>$575</p>
+                </li>
+              </ul>
+              </a>
+            </li>
+          </ol>
+        </li>
+      </ul>
+      </figure>
+
+      <h3 class="returnHeading">Returning flights: </h3>
+      <figure id="flightSelection">
+      <ul id="flights">
+        <li id="returningSelect">
+            <ol class="flightsTwo">
+              <li class="indivFlight">
+                <a href="#flight201">
+                <ul>
+                  <li class="pretty">
+                    <h4>Flight 201</h4>
+                  </li>
+                  <li class="ig">
+                    <h4>Departs</h4>
+                    <p>7:30 AM</p>
+                  </li>
+                  <li class="ig">
+                    <h4>Arrives</h4>
+                    <p>9:45 AM</p>
+                  </li>
+                  <li class="igl">
+                    <h4>Duration</h4>
+                    <p>2h15</p>
+                  </li>
+                  <li class="pretty">
+                    <h4>Price</h4>
+                    <p>$430</p>
+                  </li>
+                </ul>
+                </a>
+              </li>
+              <li class="indivFlight">
+                <a href="#flight202">
+                <ul>
+                  <li class="pretty">
+                    <h4>Flight 202</h4>
+                  </li>
+                  <li class="ig">
+                    <h4>Departs</h4>
+                    <p>10:30 AM</p>
+                  </li>
+                  <li class="ig">
+                    <h4>Arrives</h4>
+                    <p>12:45 PM</p>
+                  </li>
+                  <li class="igl">
+                    <h4>Duration</h4>
+                    <p>2h15</p>
+                  </li>
+                  <li class="pretty">
+                    <h4>Price</h4>
+                    <p>$400</p>
+                  </li>
+                </ul>
+                </a>
+              </li>
+              <li class="indivFlight">
+                <a href="#flight203">
+                <ul>
+                  <li class="pretty">
+                    <h4>Flight 203</h4>
+                  </li>
+                  <li class="ig">
+                    <h4>Departs</h4>
+                    <p>11:00 AM</p>
+                  </li>
+                  <li class="ig">
+                    <h4>Arrives</h4>
+                    <p>1:00 PM</p>
+                  </li>
+                  <li class="igl">
+                    <h4>Duration</h4>
+                    <p>2h00</p>
+                  </li>
+                  <li class="pretty">
+                    <h4>Price</h4>
+                    <p>$375</p>
+                  </li>
+                </ul>
+                </a>
+              </li>
+              <li class="indivFlight">
+                <a href="#flight204">
+                <ul>
+                  <li class="pretty">
+                    <h4>Flight 204</h4>
+                  </li>
+                  <li class="ig">
+                    <h4>Departs</h4>
+                    <p>5:00 PM</p>
+                  </li>
+                  <li class="ig">
+                    <h4>Arrives</h4>
+                    <p>8:00 PM</p>
+                  </li>
+                  <li class="igl">
+                    <h4>Duration</h4>
+                    <p>3h00</p>
+                  </li>
+                  <li class="pretty">
+                    <h4>Price</h4>
+                    <p>$575</p>
+                  </li>
+                </ul>
+                </a>
+              </li>
+            </ol>
+        </li>
+      </ul>
+    </figure>
+
+    <!-- action="../seats/index.html" -->
+  <form id="flightSelections" action="../seats/index.html" method="get" id="seatSelection" novalidate>
+    <ol>
       <li>
-        Flights
-      </li>
-      <li>
-        Departure Times
-      </li>
-      <li>
+<<<<<<< HEAD
            Arrival Times
       </li>
       <li id="duration">
@@ -196,38 +409,55 @@
           <li>
             Flight Duration 3 hours 15 minutes
           </li>
+=======
+        <label for="flightOneSelection">Departing Flight: </label>
+        <input type="text" id="flightOneSelection" name="flightOneSelection" placeholder="Flight104" />
+      </li>
+      <li class="flightTwoShow">
+        <label for="flightTwoSelection">Returning Flight: </label>
+        <input type="text" id="flightTwoSelection" name="flightTwoSelection" placeholder="Flight202" />
+      </li>
+      <li>
+        <input type="submit" id="submit" name="submit" value="Select seats!" />
+      </li>
+    </ol>
+  </form>
+
+  <h2>Search Update</h2>
+  <form action="../searchresults/index.html" method="get" id="flightsearch" novalidate>
+    <ol id="searchone">
+      <li>
+        <ul class="trip">
+>>>>>>> 8c16f160be8b3f8b1c9d76cb773464cdcff4b03b
           <li>
-            Stops 0
+            <label for="oneway">One-Way</label>
+            <input type="radio" id="oneway" name="trip" value="One-Way" />
           </li>
           <li>
-            Price 390
+            <label for="roundtrip">Round Trip</label>
+            <input type="radio" id="roundtrip" name="trip" value="Round Trip" checked />
           </li>
         </ul>
       </li>
       <li>
-        <ul>
+        <ul class="loc">
           <li>
+<<<<<<< HEAD
             <label for="fthree">Flight Three</label>
       <input type="radio" id="fthree" name="returnflight" value="flightthree" />
+=======
+            <label for="deparloc">Departing Location</label>
+            <input type="text" id="deparloc" name="departing location" placeholder="Chicago, IL" />
+>>>>>>> 8c16f160be8b3f8b1c9d76cb773464cdcff4b03b
           </li>
           <li>
-            Depature Time 5:45 am
-          </li>
-          <li>
-            Arrival Time 9:30 am
-          </li>
-          <li>
-            Flight Duration 3 hours 45 minutes
-          </li>
-          <li>
-            Stops 1
-          </li>
-          <li>
-            Price 560
+            <label for="arriveloc">Arriving Location</label>
+            <input type="text" id="arriveloc" name="arriving location" placeholder="Orlando, FL" />
           </li>
         </ul>
       </li>
       <li>
+<<<<<<< HEAD
         <ul>
           <li>
               <label>Flight Four:</label>
@@ -242,89 +472,49 @@
           <li>
             Flight Duration 3 hours 0 minutes
           </li>
+=======
+        <ul class="dates">
+>>>>>>> 8c16f160be8b3f8b1c9d76cb773464cdcff4b03b
           <li>
-            Stops: 0
+            <label for="departdate">Departure Date</label>
+            <input type="date" id="departdate" name="departure date" placeholder="mm/dd/yyyy" />
           </li>
           <li>
-            Price: 450
+            <label for="returndate">Return Date</label>
+            <input type="date" id="returndate" name="return date" placeholder="mm/dd/yyyy" />
           </li>
         </ul>
       </li>
-      <li id="searchsubmit">
-        <input type="submit" id="submit" name="submit" value="Select Flights" />
+      <li class="ti">
+        <label for="tickets">Tickets</label>
       </li>
-    </ol>
-  </form>
-
-  <h2>Search Update</h2>
-  <form action="" method="get" id="searchUpdate" novalidate>
-    <ol id="searchone">
-      <li>
-      <ul class="trip">
-        <li>
-          <label for="oneway">One-Way</label>
-          <input type="radio" id="oneway" name="trip" value="One-Way" />
-        </li>
-        <li>
-          <label for="round">Round Trip</label>
-          <input type="radio" id="roundtrip" name="trip" value="Round Trip" checked />
-        </li>
-      </ul>
-    </li>
-    <li>
-      <ul class="loc">
-        <li>
-          <label for="departloc">Departing Location</label>
-          <input type="text" id="deparloc" name="departing location" placeholder="Chicago, IL" />
-        </li>
-        <li>
-          <label for="arriveloc">Arriving Location</label>
-          <input type="text" id="arriveloc" name="arriving location" placeholder="Orlando, FL" />
-        </li>
-      </ul>
-    </li>
-    <li>
-      <ul class="dates">
-        <li>
-          <label for="departdate">Departure Date</label>
-          <input type="date" id="departdate" name="departure date" placeholder="mm/dd/yyyy" />
-        </li>
-        <li>
-          <label for="returndate">Return Date</label>
-          <input type="date" id="returndate" name="return date" placeholder="mm/dd/yyyy" />
-        </li>
-      </ul>
-    </li>
       <li>
         <ul class="tickets">
-          <li class="ti">
-            <label for="tickets">Tickets</label>
-          </li>
           <li>
             <label for="adult">Adults</label>
-            <input type="number" name="tickets" id="adult" value="1" />
+            <input type="text" name="tickets" id="adult" pattern="[0-9]*" inputmode="numeric" value="1" />
           </li>
           <li>
             <label for="senior">Seniors</label>
-            <input type="number" name="tickets" id="senior" value="0" />
+            <input type="text" name="tickets" id="senior" pattern="[0-9]*" inputmode="numeric" value="0" />
           </li>
           <li>
             <label for="children">Children</label>
-            <input type="number" name="tickets" id="children" value="0" />
+            <input type="text" name="tickets" id="children" pattern="[0-9]*" inputmode="numeric" value="0" />
           </li>
           <li>
             <label for="infant">Infants</label>
-            <input type="number" name="tickets" id="infant" value="0" />
+            <input type="text" name="tickets" id="infant" pattern="[0-9]*" inputmode="numeric" value="0" />
           </li>
         </ul>
       </li>
       <li class="submitB">
-        <input type="submit" id="submit" name="submit" value="Update Flight Search" />
+        <input type="submit" id="submit" name="submit" value="Search for flights" />
       </li>
     </ol>
   </form>
   </main>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="../site.js"></script>
 </body>
 </html>
